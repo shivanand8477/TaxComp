@@ -1,0 +1,67 @@
+:root {
+  --brand-primary: #0d47a1; /* Deep blue */
+  --brand-accent: #ffc107;  /* Amber accent */
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+  color: #2a2a2a;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.2px;
+}
+
+.navbar.bg-primary,
+.footer.bg-primary,
+.bg-primary {
+  background: var(--brand-primary) !important;
+}
+
+.btn-primary {
+  background: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.btn-outline-primary {
+  color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.stat-tile {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  border: 1px solid #eee;
+}
+
+.client-logo {
+  max-height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(30%);
+  opacity: 0.9;
+}
+
+.card .card-title {
+  display: flex;
+  align-items: center;
+}
+
+.card .card-title .bi {
+  font-size: 1.1em;
+}
+
+blockquote {
+  border-left: 4px solid var(--brand-accent);
+  padding-left: 1rem;
+}
+
+footer .nav .nav-link:hover {
+  color: #fff !important;
+}
+
+/* Hero image polish */
+img.rounded.shadow-sm {
+  border: 1px solid #eee;
+}
