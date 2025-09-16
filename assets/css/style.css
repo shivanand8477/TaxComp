@@ -65,3 +65,24 @@ footer .nav .nav-link:hover {
 img.rounded.shadow-sm {
   border: 1px solid #eee;
 }
+.hero-section {
+  background: url('../img/hero-bg.png') no-repeat center right;
+  background-size: cover;
+  min-height: 500px;
+  padding: 4rem 0;
+}
+
+.hero-section h1,
+.hero-section p {
+  color: #fff; /* or white if you use a dark left background */
+}
+
+.hero-section .btn-outline-primary {
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
+}
+
+.hero-section .btn-outline-primary:hover {
+  background-color: var(--brand-primary);
+  color: #fff;
+}
