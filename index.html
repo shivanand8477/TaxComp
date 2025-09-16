@@ -63,7 +63,7 @@
   <header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <img src="img/logo.png" alt="Company logo" width="36" height="36">
+        <img src="assets/img/companylogo.png" alt="Company logo" width="36" height="36">
         <span>Tax & Legal Compliance Co.</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <img class="img-fluid rounded shadow-sm" src="img/hero.jpg" alt="Business professionals discussing compliance">
+          <img class="img-fluid rounded shadow-sm" src="assets/img/hero.png"  alt="Business professionals discussing compliance">
         </div>
       </div>
     </div>
@@ -241,16 +241,28 @@
       <p class="text-center text-secondary mb-5">We support a diverse portfolio—SaaS, D2C, manufacturing, and professional services.</p>
       <div class="row row-cols-2 row-cols-md-4 g-4 align-items-center text-center">
         <div class="col">
-          <img src="img/client1.png" class="client-logo" alt="Client 1 logo">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 1 logo">
         </div>
         <div class="col">
-          <img src="img/client2.png" class="client-logo" alt="Client 2 logo">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 2 logo">
         </div>
         <div class="col">
-          <img src="img/client3.png" class="client-logo" alt="Client 3 logo">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 3 logo">
         </div>
         <div class="col">
-          <img src="img/client4.png" class="client-logo" alt="Client 4 logo">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 4 logo">
+        </div>
+        <div class="col">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 5 logo">
+        </div>
+        <div class="col">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 6 logo">
+        </div>
+        <div class="col">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 7 logo">
+        </div>
+        <div class="col">
+          <img src="assets/img/fedex.png" class="client-logo" alt="Client 8 logo">
         </div>
       </div>
       <div class="card mt-5 border-0 bg-light">
@@ -272,7 +284,7 @@
       <div class="row g-4">
         <div class="col-md-6 col-lg-3">
           <div class="card h-100 text-center shadow-sm">
-            <img src="img/team1.jpg" class="card-img-top" alt="Portrait of Partner 1">
+            <img src="assets/img/team.jpg" class="card-img-top" alt="Portrait of Partner 1">
             <div class="card-body">
               <h3 class="h6 mb-1">A. Sharma, CA</h3>
               <p class="small text-muted mb-2">Partner, Taxation</p>
@@ -282,7 +294,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card h-100 text-center shadow-sm">
-            <img src="img/team2.jpg" class="card-img-top" alt="Portrait of Partner 2">
+            <img src="assets/img/team.jpg" class="card-img-top" alt="Portrait of Partner 2">
             <div class="card-body">
               <h3 class="h6 mb-1">S. Verma, CS</h3>
               <p class="small text-muted mb-2">Partner, Corporate Law</p>
@@ -292,7 +304,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card h-100 text-center shadow-sm">
-            <img src="img/team3.jpg" class="card-img-top" alt="Portrait of Legal Counsel">
+            <img src="assets/img/team.jpg" class="card-img-top" alt="Portrait of Legal Counsel">
             <div class="card-body">
               <h3 class="h6 mb-1">R. Gupta, Adv.</h3>
               <p class="small text-muted mb-2">Legal Counsel</p>
@@ -302,7 +314,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="card h-100 text-center shadow-sm">
-            <img src="img/team4.jpg" class="card-img-top" alt="Portrait of Compliance Manager">
+            <img src="assets/img/team.jpg" class="card-img-top" alt="Portrait of Compliance Manager">
             <div class="card-body">
               <h3 class="h6 mb-1">P. Iyer</h3>
               <p class="small text-muted mb-2">Compliance Manager</p>
@@ -336,22 +348,37 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <form class="p-4 rounded border h-100 shadow-sm" action="https://formspree.io/f/your-form-id" method="POST">
-            <h3 class="h5 mb-3">Send a message</h3>
-            <div class="mb-3">
-              <label for="name" class="form-label">Full name</label>
+          <form class="p-4 rounded border shadow-sm" action="" method="POST">
+          <h3 class="h5 mb-3">Send a message</h3>
+
+          <!-- Full Name -->
+          <div class="mb-3 row align-items-center">
+            <label for="name" class="col-sm-4 col-form-label">Full name</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="name" name="name" required autocomplete="name">
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3 row align-items-center">
+            <label for="email" class="col-sm-4 col-form-label">Email address</label>
+            <div class="col-sm-8">
               <input type="email" class="form-control" id="email" name="_replyto" required autocomplete="email">
             </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">Phone</label>
+          </div>
+
+          <!-- Phone -->
+          <div class="mb-3 row align-items-center">
+            <label for="phone" class="col-sm-4 col-form-label">Phone</label>
+            <div class="col-sm-8">
               <input type="tel" class="form-control" id="phone" name="phone" autocomplete="tel">
             </div>
-            <div class="mb-3">
-              <label for="service" class="form-label">Service of interest</label>
+          </div>
+
+          <!-- Service of Interest -->
+          <div class="mb-3 row align-items-center">
+            <label for="service" class="col-sm-4 col-form-label">Service of interest</label>
+            <div class="col-sm-8">
               <select id="service" class="form-select" name="service">
                 <option value="GST">GST</option>
                 <option value="ITR">ITR</option>
@@ -361,15 +388,25 @@
                 <option value="Trademark">Trademark & Legal</option>
               </select>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3 row align-items-center">
+            <label for="message" class="col-sm-4 col-form-label">Message</label>
+            <div class="col-sm-8">
+              <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit inquiry</button>
-            <p class="form-text mt-2">We value your privacy. Your details are used only to respond to your query.</p>
-          </form>
-        </div>
+          </div>
+
+          <!-- Submit -->
+          <div class="row">
+            <div class="offset-sm-4 col-sm-8">
+              <button type="submit" class="btn btn-primary">Submit inquiry</button>
+            </div>
+          </div>
+        </form>
       </div>
+    </div>
     </div>
   </section>
 
