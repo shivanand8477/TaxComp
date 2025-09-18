@@ -224,7 +224,9 @@
             </div>
           </div>
         </article>
-        <article class="col-md-6 col-lg-4">
+        <article class="col-md-6 col-lg-4" data-bs-toggle="modal"
+         data-bs-target="#payrollModal"
+         style="cursor: pointer;">
           <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h3 class="h5 card-title"><i class="bi bi-shield-check me-2 text-primary"></i>Payroll & Labour Laws</h3>
@@ -234,6 +236,10 @@
                 <li>Monthly challans & returns</li>
                 <li>Policy drafting & audits</li>
               </ul>
+              <!-- Show More trigger -->
+              <button type="button" class="btn btn-link p-0 small" data-bs-toggle="modal" data-bs-target="#payrollModal">
+                Show More
+              </button>
             </div>
           </div>
         </article>
@@ -253,6 +259,45 @@
       </div>
     </div>
   </section>
+
+
+  <!-- modals-->
+  <!-- Modal -->
+<div class="modal fade" id="payrollModal" tabindex="-1" aria-labelledby="payrollModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+    <div class="modal-content border-0 shadow-sm">
+      <div class="modal-body p-0">
+        <div class="card h-100 border-0">
+          <div class="card-body">
+            <h3 class="h5 card-title">
+              <i class="bi bi-shield-check me-2 text-primary"></i>Payroll & Labour Laws
+            </h3>
+            <p class="card-text">
+              Payroll setup, PF/ESI/PT, Shops & Establishments, and POSH compliance.
+            </p>
+            <ul class="small text-muted ps-3">
+              <li>PF, ESI, PT registrations</li>
+              <li>Monthly challans & returns</li>
+              <li>Policy drafting & audits</li>
+              <li>Labour law consulting</li>
+              <li>POSH training sessions</li>
+              <li>Shops & Establishments registration</li>
+              <li>Gratuity & bonus compliance</li>
+              <li>Employee handbook creation</li>
+              <li>Factory Act compliance</li>
+              <li>Contract labour licensing</li>
+              <!-- Add as many as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <!-- Our clients -->
   <!-- <section id="clients" class="py-5">
