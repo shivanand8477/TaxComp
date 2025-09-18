@@ -167,102 +167,331 @@
   </main>
 
   <!-- Services we offer -->
-  <section id="services" class="py-5 bg-light border-top border-bottom">
-    <div class="container">
-      <h2 class="h1 mb-4 text-center">Services we offer</h2>
-      <p class="text-center text-secondary mb-5">Comprehensive compliance services tailored to your stage and sector.</p>
-      <div class="row g-4">
-        <article class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-file-earmark-text me-2 text-primary"></i>ITR & Tax Filing</h3>
-              <p class="card-text">Accurate income tax return filing for individuals and businesses, including TDS/TCS and audit support.</p>
-              <ul class="small text-muted ps-3">
-                <li>Individual & corporate ITR</li>
-                <li>TDS returns</li>
-                <li>Tax audit coordination</li>
-              </ul>
+<section id="services" class="py-5 bg-light border-top border-bottom">
+  <div class="container">
+    <h2 class="h1 mb-4 text-center">Services we offer</h2>
+    <p class="text-center text-secondary mb-5">Comprehensive compliance services tailored to your stage and sector.</p>
+    <div class="row g-4">
+
+      <!-- CDSCO -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#cdscoModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-clipboard-check me-2 text-primary"></i>CDSCO</h3>
+            <p class="card-text">Central Drugs Standard Control Organisation compliance and licensing services.</p>
+            <ul class="small text-muted ps-3">
+              <li>CDSCO licence</li>
+              <li>Documentation & filing</li>
+              <li>Regulatory advisory</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="cdscoModal" tabindex="-1" aria-labelledby="cdscoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-clipboard-check me-2 text-primary"></i>CDSCO</h3>
+                  <p class="card-text">Central Drugs Standard Control Organisation compliance and licensing services.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>CDSCO licence</li>
+                    <li>Documentation & filing</li>
+                    <li>Regulatory advisory</li>
+                    <li>Renewals & amendments</li>
+                    <li>Post‑approval compliance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
-        </article>
-        <article class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-receipt me-2 text-primary"></i>GST Registration & Returns</h3>
-              <p class="card-text">End-to-end GST services: registration, monthly/quarterly filings, reconciliation, and notices.</p>
-              <ul class="small text-muted ps-3">
-                <li>GSTIN registration</li>
-                <li>GSTR-1, 3B, 9/9C</li>
-                <li>ITC reconciliation</li>
-              </ul>
-            </div>
-          </div>
-        </article>
-        <article class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-building-add me-2 text-primary"></i>Company Incorporation</h3>
-              <p class="card-text">Private Ltd, LLP, OPC setup with DSC, DIN, and MoA/AoA drafting and MCA filings.</p>
-              <ul class="small text-muted ps-3">
-                <li>Pvt Ltd, LLP, OPC</li>
-                <li>DIN & DSC</li>
-                <li>Post-incorporation compliance</li>
-              </ul>
-            </div>
-          </div>
-        </article>
-        <article class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-journal-check me-2 text-primary"></i>ROC & Corporate Compliance</h3>
-              <p class="card-text">Annual filings, board and shareholder documentation, and event-based compliance.</p>
-              <ul class="small text-muted ps-3">
-                <li>AOC-4, MGT-7/7A</li>
-                <li>Board minutes & registers</li>
-                <li>Change in directors/office</li>
-              </ul>
-            </div>
-          </div>
-        </article>
-        <article class="col-md-6 col-lg-4" data-bs-toggle="modal"
-         data-bs-target="#payrollModal"
-         style="cursor: pointer;">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-shield-check me-2 text-primary"></i>Payroll & Labour Laws</h3>
-              <p class="card-text">Payroll setup, PF/ESI/PT, Shops & Establishments, and POSH compliance.</p>
-              <ul class="small text-muted ps-3">
-                <li>PF, ESI, PT registrations</li>
-                <li>Monthly challans & returns</li>
-                <li>Policy drafting & audits</li>
-              </ul>
-              <!-- Show More trigger -->
-              <button type="button" class="btn btn-link p-0 small" data-bs-toggle="modal" data-bs-target="#payrollModal">
-                Show More
-              </button>
-            </div>
-          </div>
-        </article>
-        <article class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h3 class="h5 card-title"><i class="bi bi-badge-tm me-2 text-primary"></i>Trademark & Legal Advisory</h3>
-              <p class="card-text">Trademark search, filing, replies, and general contracts and legal opinions.</p>
-              <ul class="small text-muted ps-3">
-                <li>TM search & filing</li>
-                <li>Objection replies</li>
-                <li>Contracts & policies</li>
-              </ul>
-            </div>
-          </div>
-        </article>
+        </div>
       </div>
-    </div>
-  </section>
 
+      <!-- BIS -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#bisModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-award me-2 text-primary"></i>BIS</h3>
+            <p class="card-text">Bureau of Indian Standards certification and compliance.</p>
+            <ul class="small text-muted ps-3">
+              <li>BIS certification</li>
+              <li>Documentation</li>
+              <li>Product testing</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="bisModal" tabindex="-1" aria-labelledby="bisModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-award me-2 text-primary"></i>BIS</h3>
+                  <p class="card-text">Bureau of Indian Standards certification and compliance.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>BIS certification</li>
+                    <li>Documentation</li>
+                    <li>Product testing</li>
+                    <li>Renewals</li>
+                    <li>Compliance audits</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <!-- modals-->
-  <!-- Modal -->
+      <!-- BIS Hallmark -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#bisHallmarkModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-gem me-2 text-primary"></i>BIS Hallmark</h3>
+            <p class="card-text">Hallmark certification for gold and silver jewellery.</p>
+            <ul class="small text-muted ps-3">
+              <li>Hallmark registration</li>
+              <li>Testing & stamping</li>
+              <li>Renewals</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="bisHallmarkModal" tabindex="-1" aria-labelledby="bisHallmarkModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-gem me-2 text-primary"></i>BIS Hallmark</h3>
+                  <p class="card-text">Hallmark certification for gold and silver jewellery.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>Hallmark registration</li>
+                    <li>Testing & stamping</li>
+                    <li>Renewals</li>
+                    <li>Compliance checks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pollution NOC -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#pollutionModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-cloud-check me-2 text-primary"></i>Pollution NOC</h3>
+            <p class="card-text">Pollution control board No Objection Certificate services.</p>
+            <ul class="small text-muted ps-3">
+              <li>Consent to Establish</li>
+              <li>Consent to Operate</li>
+              <li>Renewals</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="pollutionModal" tabindex="-1" aria-labelledby="pollutionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-cloud-check me-2 text-primary"></i>Pollution NOC</h3>
+                  <p class="card-text">Pollution control board No Objection Certificate services.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>Consent to Establish</li>
+                    <li>Consent to Operate</li>
+                    <li>Renewals</li>
+                    <li>Compliance monitoring</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-Waste Management -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#ewasteModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-recycle me-2 text-primary"></i>E‑Waste Management</h3>
+            <p class="card-text">Compliance and certification for electronic waste handling and disposal.</p>
+            <ul class="small text-muted ps-3">
+              <li>E‑waste authorization</li>
+              <li>Collection & disposal</li>
+              <li>Annual returns</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="ewasteModal" tabindex="-1" aria-labelledby="ewasteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-recycle me-2 text-primary"></i>E‑Waste Management</h3>
+                  <p class="card-text">Compliance and certification for electronic waste handling and disposal.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>E‑waste authorization</li>
+                    <li>Collection & disposal</li>
+                    <li>Annual returns</li>
+                    <li>Recycling partner coordination</li>
+                    <li>Compliance audits</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plastic Waste Management -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#plasticModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-bag-check me-2 text-primary"></i>Plastic Waste Management</h3>
+            <p class="card-text">Authorizations and compliance for plastic waste handling and recycling.</p>
+            <ul class="small text-muted ps-3">
+              <li>Plastic waste registration</li>
+              <li>Recycling compliance</li>
+              <li>Annual returns</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="plasticModal" tabindex="-1" aria-labelledby="plasticModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-bag-check me-2 text-primary"></i>Plastic Waste Management</h3>
+                  <p class="card-text">Authorizations and compliance for plastic waste handling and recycling.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>Plastic waste registration</li>
+                    <li>Recycling compliance</li>
+                    <li>Annual returns</li>
+                    <li>Extended Producer Responsibility (EPR)</li>
+                    <li>Waste reduction planning</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hazardous Waste Management -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#hazardousModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-exclamation-triangle me-2 text-primary"></i>Hazardous Waste Management</h3>
+            <p class="card-text">Licensing and compliance for hazardous waste handling and disposal.</p>
+            <ul class="small text-muted ps-3">
+              <li>Hazardous waste authorization</li>
+              <li>Safe disposal methods</li>
+              <li>Annual returns</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="hazardousModal" tabindex="-1" aria-labelledby="hazardousModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-exclamation-triangle me-2 text-primary"></i>Hazardous Waste Management</h3>
+                  <p class="card-text">Licensing and compliance for hazardous waste handling and disposal.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>Hazardous waste authorization</li>
+                    <li>Safe disposal methods</li>
+                    <li>Annual returns</li>
+                    <li>Storage compliance</li>
+                    <li>Emergency response planning</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Environment Licence -->
+      <article class="col-md-6 col-lg-4" data-bs-toggle="modal" data-bs-target="#environmentModal" style="cursor:pointer;">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h5 card-title"><i class="bi bi-tree me-2 text-primary"></i>Environment Licence</h3>
+            <p class="card-text">Environmental clearances and licences for businesses and projects.</p>
+            <ul class="small text-muted ps-3">
+              <li>Environmental clearance</li>
+              <li>Licence application</li>
+              <li>Compliance reporting</li>
+            </ul>
+            <span class="text-primary small">Click for full list</span>
+          </div>
+        </div>
+      </article>
+      <div class="modal fade" id="environmentModal" tabindex="-1" aria-labelledby="environmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+          <div class="modal-content border-0 shadow-sm">
+            <div class="modal-body p-0">
+              <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h3 class="h5 card-title"><i class="bi bi-tree me-2 text-primary"></i>Environment Licence</h3>
+                  <p class="card-text">Environmental clearances and licences for businesses and projects.</p>
+                  <ul class="small text-muted ps-3">
+                    <li>Environmental clearance</li>
+                    <li>Licence application</li>
+                    <li>Compliance reporting</li>
+                    <li>Impact assessment coordination</li>
+                    <li>Renewals & amendments</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Modal -->
 <div class="modal fade" id="payrollModal" tabindex="-1" aria-labelledby="payrollModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
     <div class="modal-content border-0 shadow-sm">
@@ -352,7 +581,7 @@
             <img src="assets/img/ayushi.png" class="card-img-top" alt="Portrait of Partner 1">
             <div class="card-body">
               <h3 class="h6 mb-1">Ms. Ayushi Singh Shishondia</h3>
-              <p class="small text-muted mb-2">Founder (Business Analyst)</p>
+              <p class="small text-muted mb-2"><strong>(Business Analyst)</strong></p>
               <p class="card-text small">Expertise in Management.</p>
             </div>
           </div>
@@ -362,7 +591,7 @@
             <img src="assets/img/Divisha.png" class="card-img-top" alt="Portrait of Partner 2">
             <div class="card-body">
               <h3 class="h6 mb-1">Adv. Divisha Shishondia</h3>
-              <p class="small text-muted mb-2">Co-Founder</p>
+              <p class="small text-muted mb-2"><strong>Co-Founder</strong></p>
               <p class="card-text small">Expertise in Legal Actions.</p>
             </div>
           </div>
@@ -372,7 +601,7 @@
             <img src="assets/img/amit.png" class="card-img-top" alt="Portrait of Partner 2">
             <div class="card-body">
               <h3 class="h6 mb-1">Mr. Amit Parihar</h3>
-              <p class="small text-muted mb-2">Managing Director</p>
+              <p class="small text-muted mb-2"><strong>Managing Director</strong></p>
               <p class="card-text small">Specialized in Licensing.</p>
             </div>
           </div>
@@ -390,12 +619,16 @@
         <div class="col-lg-6">
           <div class="p-4 rounded bg-light h-100 shadow-sm">
             <h3 class="h5 mb-3">Reach out</h3>
-            <p class="mb-1">
-              <i class="bi bi-geo-alt text-primary me-2"></i>
-              <strong>Address:</strong>
-                              102, New Alok Merut Road Hapur,<br>
-                              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Hapur,Uttar Pradesh (245101)
-            </p> 
+            <div class="d-flex align-items-start mb-2">
+              <p class="mb-1 me-2">
+                <i class="bi bi-geo-alt text-primary me-2"></i>
+                <strong>Address:</strong>
+              </p>
+              <div>
+                102, New Alok Merut Road Hapur,<br>
+                Hapur, Uttar Pradesh (245101)
+              </div>
+            </div>
             <p class="mb-1"><i class="bi bi-envelope text-primary me-2"></i><strong>Email:</strong> sahidaftar31@gmail.com</p>
             <p class="mb-3"><i class="bi bi-telephone text-primary me-2"></i><strong>Phone:</strong> +91-8755398890, +91-9634980426</p>
             <div class="d-flex gap-2">
